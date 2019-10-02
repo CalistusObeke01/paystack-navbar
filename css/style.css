@@ -20,22 +20,33 @@ header {
 	justify-content: space-between;
 }
 
+.paystack-logo {
+	margin-top: -4px;
+}
+
 .logo {
-	width: 40px;
-	height: 35px;
+	width: 20px;
+	height: 20px;
+}
+
+.paystack {
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 3px;
+	padding-top: -5px;
 }
 
 .nav-left {
 	margin-right: auto;
 }
 
-.nav-right li:last-child{
-	background: lightgreen;
+.nav-right li:nth-of-type(4){
+	background: #66bb6a;
 	padding: 7px 10px;
 	border-radius: 5px;
 }
 
-.nav-right li:last-child a {
+.nav-right li:nth-of-type(4) a {
 	color: #fff;
 }
 
